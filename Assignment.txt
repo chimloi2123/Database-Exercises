@@ -1,0 +1,12 @@
+-----Yêu cầu chuẩn đầu ra môn học qua đồ án TH này----
+1> Phân tích, tổng hợp, thực hành các kỹ năng làm việc nhóm trong hoạt động
+thiết kế CSDL quan hệ theo nhóm.
+2> Hiểu và cài đặt được Trigger
+3> Tư duy phê phán sáng tạo trong thiết kế CSDL
+
+---------Phân công---------
+Lãm: Tạo CSDL + cài trigger
+Khoa: Phát sinh dữ liệu mẫu
+Tiến: 3 câu truy vấn (a, b, c) + ghi nhận lại index recommendation
+Trâm Anh: 3 câu truy vẫn (d, e, f) + ghi nhận lại index recommendation
+Chị Thảo: Lập trình giao diện + Soát lại toàn bộ đồ án
