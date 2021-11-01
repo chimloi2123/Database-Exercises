@@ -1,0 +1,6 @@
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\DTO\bin\Debug\DTO.dll
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\DTO\bin\Debug\DTO.pdb
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\DTO\obj\Debug\DTO.dll
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\DTO\obj\Debug\DTO.pdb
