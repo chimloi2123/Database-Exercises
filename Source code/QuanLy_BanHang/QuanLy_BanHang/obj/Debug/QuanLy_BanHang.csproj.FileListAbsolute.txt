@@ -1,0 +1,14 @@
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\QuanLy_BanHang.csprojAssemblyReference.cache
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\QuanLy_BanHang.Properties.Resources.resources
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\QuanLy_BanHang.csproj.GenerateResource.cache
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\QuanLy_BanHang.csproj.CoreCompileInputs.cache
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\QuanLy_BanHang.exe.config
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\QuanLy_BanHang.exe
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\QuanLy_BanHang.pdb
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\BUS.dll
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\DTO.dll
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\BUS.pdb
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\bin\Debug\DTO.pdb
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\QuanLy_BanHang.csproj.CopyComplete
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\QuanLy_BanHang.exe
+F:\Documents\MonHoc\Nam4\Ki1\CSDLNC\DoAn\Database-Exercises\Source code\QuanLy_BanHang\QuanLy_BanHang\obj\Debug\QuanLy_BanHang.pdb
