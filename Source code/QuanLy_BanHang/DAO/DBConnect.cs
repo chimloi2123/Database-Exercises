@@ -17,7 +17,7 @@ namespace DAO
         }
         public IDbConnection CreateConnection()
         {
-            string strConString = HamKetNoiCSDL("QUANLYBANHANG");
+            string strConString = HamKetNoiCSDL("QuanLyHoaDon");
             var conn = new SqlConnection(strConString);
             try
             {

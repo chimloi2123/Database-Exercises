@@ -21,5 +21,13 @@ namespace DTO
             MoTa = MoTa1;
             Gia = Gia1;
         }
+        public DTO_SanPham()
+        {
+            MaSP = "";
+            TenSP = "";
+            SL = 0;
+            MoTa = "";
+            Gia = 0;
+        }
     }
 }
