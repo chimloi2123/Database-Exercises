@@ -7,6 +7,5 @@ thiết kế CSDL quan hệ theo nhóm.
 ---------Phân công---------
 Lãm: Tạo CSDL + cài trigger
 Khoa: Phát sinh dữ liệu mẫu
-Tiến: 3 câu truy vấn (a, b, c) + ghi nhận lại index recommendation
-Trâm Anh: 3 câu truy vẫn (d, e, f) + ghi nhận lại index recommendation
+Tiến + Trâm Anh: Các câu truy vấn + execution plan + báo cáo
 Chị Thảo: Lập trình giao diện + Soát lại toàn bộ đồ án
