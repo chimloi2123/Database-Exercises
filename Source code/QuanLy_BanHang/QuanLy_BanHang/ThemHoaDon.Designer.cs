@@ -30,92 +30,86 @@ namespace QuanLy_BanHang
         private void InitializeComponent()
         {
             this.dsSanPham = new System.Windows.Forms.DataGridView();
-            this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txbGioiTinh = new System.Windows.Forms.TextBox();
-            this.txbMaHV = new System.Windows.Forms.TextBox();
+            this.dateTime = new System.Windows.Forms.DateTimePicker();
+            this.saveButton = new System.Windows.Forms.Button();
+            this.txtMaDH = new System.Windows.Forms.TextBox();
+            this.txtMaKH = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.invoice = new System.Windows.Forms.Button();
             this.exit = new System.Windows.Forms.Button();
             this.statistics_Button = new System.Windows.Forms.Button();
-            this.SUM = new System.Windows.Forms.Label();
-            this.invoice = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Schedule = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.ThemSP = new System.Windows.Forms.Button();
+            this.ds_SPChon = new System.Windows.Forms.DataGridView();
+            this.TenKH = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dsSanPham)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Schedule)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ds_SPChon)).BeginInit();
             this.SuspendLayout();
             // 
             // dsSanPham
             // 
+            this.dsSanPham.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader;
             this.dsSanPham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dsSanPham.Location = new System.Drawing.Point(0, 122);
+            this.dsSanPham.Location = new System.Drawing.Point(12, 147);
             this.dsSanPham.Name = "dsSanPham";
-            this.dsSanPham.Size = new System.Drawing.Size(434, 256);
+            this.dsSanPham.Size = new System.Drawing.Size(422, 238);
             this.dsSanPham.TabIndex = 41;
             this.dsSanPham.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dsSanPham_CellContentClick);
             // 
-            // label7
+            // dateTime
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(474, 252);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 13);
-            this.label7.TabIndex = 40;
-            this.label7.Text = "TỔNG TIỀN";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.dateTime.CalendarTrailingForeColor = System.Drawing.SystemColors.Control;
+            this.dateTime.Location = new System.Drawing.Point(592, 176);
+            this.dateTime.Name = "dateTime";
+            this.dateTime.Size = new System.Drawing.Size(201, 20);
+            this.dateTime.TabIndex = 38;
+            this.dateTime.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // dateTimePicker1
+            // saveButton
             // 
-            this.dateTimePicker1.CalendarTrailingForeColor = System.Drawing.SystemColors.Control;
-            this.dateTimePicker1.Location = new System.Drawing.Point(583, 201);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(87, 20);
-            this.dateTimePicker1.TabIndex = 38;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.saveButton.BackColor = System.Drawing.Color.DarkCyan;
+            this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveButton.Location = new System.Drawing.Point(592, 388);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(2);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(104, 28);
+            this.saveButton.TabIndex = 35;
+            this.saveButton.Text = "Lưu";
+            this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
-            // button1
+            // txtMaDH
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkCyan;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(583, 290);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 28);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Lưu";
-            this.button1.UseVisualStyleBackColor = false;
+            this.txtMaDH.Location = new System.Drawing.Point(725, 125);
+            this.txtMaDH.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaDH.Name = "txtMaDH";
+            this.txtMaDH.Size = new System.Drawing.Size(87, 20);
+            this.txtMaDH.TabIndex = 34;
             // 
-            // txbGioiTinh
+            // txtMaKH
             // 
-            this.txbGioiTinh.Location = new System.Drawing.Point(583, 173);
-            this.txbGioiTinh.Margin = new System.Windows.Forms.Padding(2);
-            this.txbGioiTinh.Name = "txbGioiTinh";
-            this.txbGioiTinh.Size = new System.Drawing.Size(87, 20);
-            this.txbGioiTinh.TabIndex = 34;
-            // 
-            // txbMaHV
-            // 
-            this.txbMaHV.Location = new System.Drawing.Point(583, 145);
-            this.txbMaHV.Margin = new System.Windows.Forms.Padding(2);
-            this.txbMaHV.Name = "txbMaHV";
-            this.txbMaHV.Size = new System.Drawing.Size(87, 20);
-            this.txbMaHV.TabIndex = 31;
-            this.txbMaHV.TextChanged += new System.EventHandler(this.txbMaHV_TextChanged);
+            this.txtMaKH.Location = new System.Drawing.Point(541, 125);
+            this.txtMaKH.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMaKH.Name = "txtMaKH";
+            this.txtMaKH.Size = new System.Drawing.Size(87, 20);
+            this.txtMaKH.TabIndex = 31;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(469, 176);
+            this.label5.Location = new System.Drawing.Point(650, 128);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 13);
@@ -125,7 +119,7 @@ namespace QuanLy_BanHang
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(487, 200);
+            this.label4.Location = new System.Drawing.Point(517, 182);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
@@ -135,7 +129,7 @@ namespace QuanLy_BanHang
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(463, 145);
+            this.label2.Location = new System.Drawing.Point(455, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 13);
@@ -147,7 +141,7 @@ namespace QuanLy_BanHang
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(535, 109);
+            this.label1.Location = new System.Drawing.Point(578, 97);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(171, 26);
@@ -164,8 +158,18 @@ namespace QuanLy_BanHang
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 93);
+            this.panel1.Size = new System.Drawing.Size(894, 93);
             this.panel1.TabIndex = 24;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLy_BanHang.Properties.Resources.invoice;
+            this.pictureBox1.Location = new System.Drawing.Point(367, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(52, 57);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -176,8 +180,21 @@ namespace QuanLy_BanHang
             this.panel2.Location = new System.Drawing.Point(0, 65);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 28);
+            this.panel2.Size = new System.Drawing.Size(894, 28);
             this.panel2.TabIndex = 9;
+            // 
+            // invoice
+            // 
+            this.invoice.AutoEllipsis = true;
+            this.invoice.BackColor = System.Drawing.Color.DarkCyan;
+            this.invoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.invoice.Location = new System.Drawing.Point(301, 0);
+            this.invoice.Name = "invoice";
+            this.invoice.Size = new System.Drawing.Size(199, 28);
+            this.invoice.TabIndex = 10;
+            this.invoice.Text = "Danh Sách Hóa Đơn";
+            this.invoice.UseVisualStyleBackColor = false;
+            this.invoice.Click += new System.EventHandler(this.invoice_Click);
             // 
             // exit
             // 
@@ -205,39 +222,6 @@ namespace QuanLy_BanHang
             this.statistics_Button.UseVisualStyleBackColor = false;
             this.statistics_Button.Click += new System.EventHandler(this.statistics_Button_Click);
             // 
-            // SUM
-            // 
-            this.SUM.AutoSize = true;
-            this.SUM.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SUM.Location = new System.Drawing.Point(585, 234);
-            this.SUM.Name = "SUM";
-            this.SUM.Size = new System.Drawing.Size(102, 37);
-            this.SUM.TabIndex = 43;
-            this.SUM.Text = "label6";
-            // 
-            // invoice
-            // 
-            this.invoice.AutoEllipsis = true;
-            this.invoice.BackColor = System.Drawing.Color.DarkCyan;
-            this.invoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.invoice.Location = new System.Drawing.Point(301, 0);
-            this.invoice.Name = "invoice";
-            this.invoice.Size = new System.Drawing.Size(199, 28);
-            this.invoice.TabIndex = 10;
-            this.invoice.Text = "Danh Sách Hóa Đơn";
-            this.invoice.UseVisualStyleBackColor = false;
-            this.invoice.Click += new System.EventHandler(this.invoice_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QuanLy_BanHang.Properties.Resources.invoice;
-            this.pictureBox1.Location = new System.Drawing.Point(367, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 57);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
             // Schedule
             // 
             this.Schedule.Image = global::QuanLy_BanHang.Properties.Resources.statistics;
@@ -248,31 +232,81 @@ namespace QuanLy_BanHang
             this.Schedule.TabIndex = 0;
             this.Schedule.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(111, 109);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(247, 26);
+            this.label3.TabIndex = 44;
+            this.label3.Text = "Danh Sách Sản Phẩm";
+            // 
+            // ThemSP
+            // 
+            this.ThemSP.AutoEllipsis = true;
+            this.ThemSP.BackColor = System.Drawing.Color.DarkCyan;
+            this.ThemSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ThemSP.Location = new System.Drawing.Point(289, 409);
+            this.ThemSP.Name = "ThemSP";
+            this.ThemSP.Size = new System.Drawing.Size(145, 29);
+            this.ThemSP.TabIndex = 68;
+            this.ThemSP.Text = "Chọn Sản Phẩm";
+            this.ThemSP.UseVisualStyleBackColor = false;
+            this.ThemSP.Click += new System.EventHandler(this.ThemSP_Click);
+            // 
+            // ds_SPChon
+            // 
+            this.ds_SPChon.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.ds_SPChon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.ds_SPChon.Location = new System.Drawing.Point(452, 219);
+            this.ds_SPChon.Name = "ds_SPChon";
+            this.ds_SPChon.Size = new System.Drawing.Size(393, 150);
+            this.ds_SPChon.TabIndex = 69;
+            // 
+            // TenKH
+            // 
+            this.TenKH.AutoSize = true;
+            this.TenKH.Location = new System.Drawing.Point(538, 147);
+            this.TenKH.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TenKH.Name = "TenKH";
+            this.TenKH.Size = new System.Drawing.Size(86, 13);
+            this.TenKH.TabIndex = 70;
+            this.TenKH.Text = "Tên khách hàng";
+            this.TenKH.Visible = false;
+            // 
             // ThemHoaDon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.SUM);
+            this.ClientSize = new System.Drawing.Size(894, 475);
+            this.Controls.Add(this.TenKH);
+            this.Controls.Add(this.ds_SPChon);
+            this.Controls.Add(this.ThemSP);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.dsSanPham);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.txbGioiTinh);
-            this.Controls.Add(this.txbMaHV);
+            this.Controls.Add(this.dateTime);
+            this.Controls.Add(this.saveButton);
+            this.Controls.Add(this.txtMaDH);
+            this.Controls.Add(this.txtMaKH);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ThemHoaDon";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dsSanPham)).EndInit();
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Schedule)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ds_SPChon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,11 +317,10 @@ namespace QuanLy_BanHang
 
         private System.Windows.Forms.DataGridView dsSanPham;
         private System.Windows.Forms.PictureBox Schedule;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txbGioiTinh;
-        private System.Windows.Forms.TextBox txbMaHV;
+        private System.Windows.Forms.DateTimePicker dateTime;
+        private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.TextBox txtMaDH;
+        private System.Windows.Forms.TextBox txtMaKH;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
@@ -296,9 +329,12 @@ namespace QuanLy_BanHang
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button statistics_Button;
-        private System.Windows.Forms.Label SUM;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button invoice;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button ThemSP;
+        private System.Windows.Forms.DataGridView ds_SPChon;
+        private System.Windows.Forms.Label TenKH;
     }
 }
 

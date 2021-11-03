@@ -9,5 +9,9 @@ namespace BUS
 {
     public class KhachHang
     {
+        public static List<DTO_KhachHang> getDSKhachHangTheoMa(string maKH)
+        {
+            return DB_KhachHang.getDSKhachHangTheoMa(maKH);
+        }
     }
 }

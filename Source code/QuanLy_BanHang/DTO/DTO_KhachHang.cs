@@ -27,6 +27,17 @@ namespace DTO
             Quan = Quan1;
             TPho = TPho1;
         }
-        
+        public DTO_KhachHang()
+        {
+            MaKH = "";
+            Ho = "";
+            Ten = "";
+            DThoai = "";
+            Duong = "";
+           
+            Quan = "";
+            TPho = "";
+        }
+
     }
 }

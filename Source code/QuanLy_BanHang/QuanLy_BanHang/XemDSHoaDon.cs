@@ -9,11 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
 using BUS;
+
 namespace QuanLy_BanHang
 {
     public partial class XemDSHoaDon : Form
     {
         List<DTO_HoaDon> lstHoaDon;
+        List<DTO_CTHoaDon> lstCTHoaDon;
+        DTO_HoaDon HDChon;
         public XemDSHoaDon()
         {
             InitializeComponent();
@@ -23,6 +26,8 @@ namespace QuanLy_BanHang
         {
             lstHoaDon = HoaDon.getDSHoaDon();
             dsHoaDon.DataSource = lstHoaDon;
+            //lstCTHoaDon = CTHoaDon.GetDSCTHoaDon();
+            
 
         }
         private void button4_Click(object sender, EventArgs e)
@@ -55,5 +60,13 @@ namespace QuanLy_BanHang
         {
             this.Close();
         }
+
+        private void dsHoaDon_SelectionChanged(object sender, EventArgs e)
+        {   
+            HDChon = lstHoaDon[dsHoaDon.CurrentCell.RowIndex];
+            dsCT_HoaDon.DataSource = CTHoaDon.GetDSCTHoaDon(HDChon.MaHD);
+            SUM.Text = HDChon.TONGTIEN+" vnd";
+        }
+
     }
 }
