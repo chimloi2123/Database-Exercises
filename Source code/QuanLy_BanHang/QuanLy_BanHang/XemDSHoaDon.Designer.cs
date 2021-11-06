@@ -70,8 +70,10 @@ namespace QuanLy_BanHang
             this.dsHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dsHoaDon.Location = new System.Drawing.Point(21, 149);
             this.dsHoaDon.Name = "dsHoaDon";
+            this.dsHoaDon.RowHeadersWidth = 51;
             this.dsHoaDon.Size = new System.Drawing.Size(446, 184);
             this.dsHoaDon.TabIndex = 54;
+            this.dsHoaDon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dsHoaDon_CellContentClick);
             this.dsHoaDon.SelectionChanged += new System.EventHandler(this.dsHoaDon_SelectionChanged);
             // 
             // button1
@@ -177,9 +179,10 @@ namespace QuanLy_BanHang
             this.SUM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SUM.Location = new System.Drawing.Point(640, 303);
             this.SUM.Name = "SUM";
-            this.SUM.Size = new System.Drawing.Size(51, 20);
+            this.SUM.Size = new System.Drawing.Size(64, 25);
             this.SUM.TabIndex = 63;
             this.SUM.Text = "label6";
+            this.SUM.Click += new System.EventHandler(this.SUM_Click);
             // 
             // label7
             // 
@@ -187,7 +190,7 @@ namespace QuanLy_BanHang
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(531, 308);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.Size = new System.Drawing.Size(93, 17);
             this.label7.TabIndex = 62;
             this.label7.Text = "TỔNG TIỀN";
             // 
@@ -199,7 +202,7 @@ namespace QuanLy_BanHang
             this.label1.Location = new System.Drawing.Point(250, 112);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 26);
+            this.label1.Size = new System.Drawing.Size(289, 32);
             this.label1.TabIndex = 64;
             this.label1.Text = "Danh Sách Hóa Đơn";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -212,7 +215,7 @@ namespace QuanLy_BanHang
             this.label3.Location = new System.Drawing.Point(531, 134);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 18);
+            this.label3.Size = new System.Drawing.Size(195, 24);
             this.label3.TabIndex = 65;
             this.label3.Text = "Thông Tin Hóa Đơn";
             // 
@@ -223,8 +226,10 @@ namespace QuanLy_BanHang
             this.dsCT_HoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dsCT_HoaDon.Location = new System.Drawing.Point(492, 155);
             this.dsCT_HoaDon.Name = "dsCT_HoaDon";
+            this.dsCT_HoaDon.RowHeadersWidth = 51;
             this.dsCT_HoaDon.Size = new System.Drawing.Size(522, 145);
             this.dsCT_HoaDon.TabIndex = 67;
+            this.dsCT_HoaDon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dsCT_HoaDon_CellContentClick);
             // 
             // XemDSHoaDon
             // 
@@ -243,6 +248,7 @@ namespace QuanLy_BanHang
             this.Controls.Add(this.panel1);
             this.Name = "XemDSHoaDon";
             this.Text = "XemDSHoaDon";
+            this.Load += new System.EventHandler(this.XemDSHoaDon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dsHoaDon)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

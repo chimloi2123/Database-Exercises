@@ -51,6 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="QuanLyHoaDonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyHoaDonDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ThemHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +121,17 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="QuanLyHoaDonDataSet.xsc">
+      <DependentUpon>QuanLyHoaDonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyHoaDonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyHoaDonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyHoaDonDataSet.xss">
+      <DependentUpon>QuanLyHoaDonDataSet.xsd</DependentUpon>
+    </None>
     <None Include="resource\add_bill.png" />
     <Content Include="resource\customer.png" />
     <None Include="resource\invoice.png" />

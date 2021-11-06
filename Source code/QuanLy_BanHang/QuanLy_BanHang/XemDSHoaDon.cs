@@ -68,5 +68,24 @@ namespace QuanLy_BanHang
             SUM.Text = HDChon.TONGTIEN+" vnd";
         }
 
+        private void dsHoaDon_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void XemDSHoaDon_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dsCT_HoaDon_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void SUM_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

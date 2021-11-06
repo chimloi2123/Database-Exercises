@@ -49,7 +49,8 @@ namespace QuanLy_BanHang
 
         private void statistics_Button_Click(object sender, EventArgs e)
         {
-
+            var formTKDT = new XemTKDoanhThu();
+            formTKDT.Show();
         }
 
         private void invoice_Click(object sender, EventArgs e)

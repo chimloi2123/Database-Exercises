@@ -63,6 +63,7 @@ namespace QuanLy_BanHang
             this.dsSanPham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dsSanPham.Location = new System.Drawing.Point(12, 147);
             this.dsSanPham.Name = "dsSanPham";
+            this.dsSanPham.RowHeadersWidth = 51;
             this.dsSanPham.Size = new System.Drawing.Size(422, 238);
             this.dsSanPham.TabIndex = 41;
             this.dsSanPham.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dsSanPham_CellContentClick);
@@ -72,7 +73,7 @@ namespace QuanLy_BanHang
             this.dateTime.CalendarTrailingForeColor = System.Drawing.SystemColors.Control;
             this.dateTime.Location = new System.Drawing.Point(592, 176);
             this.dateTime.Name = "dateTime";
-            this.dateTime.Size = new System.Drawing.Size(201, 20);
+            this.dateTime.Size = new System.Drawing.Size(201, 22);
             this.dateTime.TabIndex = 38;
             this.dateTime.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
@@ -95,7 +96,7 @@ namespace QuanLy_BanHang
             this.txtMaDH.Location = new System.Drawing.Point(725, 125);
             this.txtMaDH.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaDH.Name = "txtMaDH";
-            this.txtMaDH.Size = new System.Drawing.Size(87, 20);
+            this.txtMaDH.Size = new System.Drawing.Size(87, 22);
             this.txtMaDH.TabIndex = 34;
             // 
             // txtMaKH
@@ -103,7 +104,7 @@ namespace QuanLy_BanHang
             this.txtMaKH.Location = new System.Drawing.Point(541, 125);
             this.txtMaKH.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaKH.Name = "txtMaKH";
-            this.txtMaKH.Size = new System.Drawing.Size(87, 20);
+            this.txtMaKH.Size = new System.Drawing.Size(87, 22);
             this.txtMaKH.TabIndex = 31;
             // 
             // label5
@@ -112,7 +113,7 @@ namespace QuanLy_BanHang
             this.label5.Location = new System.Drawing.Point(650, 128);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 13);
+            this.label5.Size = new System.Drawing.Size(85, 16);
             this.label5.TabIndex = 29;
             this.label5.Text = "Mã đơn hàng";
             // 
@@ -122,7 +123,7 @@ namespace QuanLy_BanHang
             this.label4.Location = new System.Drawing.Point(517, 182);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(66, 16);
             this.label4.TabIndex = 28;
             this.label4.Text = "Ngày Lập";
             // 
@@ -132,7 +133,7 @@ namespace QuanLy_BanHang
             this.label2.Location = new System.Drawing.Point(455, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.Size = new System.Drawing.Size(98, 16);
             this.label2.TabIndex = 26;
             this.label2.Text = "Mã khách hàng";
             // 
@@ -144,7 +145,7 @@ namespace QuanLy_BanHang
             this.label1.Location = new System.Drawing.Point(578, 97);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 26);
+            this.label1.Size = new System.Drawing.Size(216, 32);
             this.label1.TabIndex = 25;
             this.label1.Text = "Thêm Hóa Đơn";
             // 
@@ -240,7 +241,7 @@ namespace QuanLy_BanHang
             this.label3.Location = new System.Drawing.Point(111, 109);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(247, 26);
+            this.label3.Size = new System.Drawing.Size(311, 32);
             this.label3.TabIndex = 44;
             this.label3.Text = "Danh Sách Sản Phẩm";
             // 
@@ -260,9 +261,11 @@ namespace QuanLy_BanHang
             // ds_SPChon
             // 
             this.ds_SPChon.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.ds_SPChon.ColumnHeadersHeight = 29;
             this.ds_SPChon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.ds_SPChon.Location = new System.Drawing.Point(452, 219);
             this.ds_SPChon.Name = "ds_SPChon";
+            this.ds_SPChon.RowHeadersWidth = 51;
             this.ds_SPChon.Size = new System.Drawing.Size(393, 150);
             this.ds_SPChon.TabIndex = 69;
             // 
@@ -272,7 +275,7 @@ namespace QuanLy_BanHang
             this.TenKH.Location = new System.Drawing.Point(538, 147);
             this.TenKH.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TenKH.Name = "TenKH";
-            this.TenKH.Size = new System.Drawing.Size(86, 13);
+            this.TenKH.Size = new System.Drawing.Size(103, 16);
             this.TenKH.TabIndex = 70;
             this.TenKH.Text = "Tên khách hàng";
             this.TenKH.Visible = false;
